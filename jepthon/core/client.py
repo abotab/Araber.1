@@ -141,7 +141,7 @@ class JokerClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**تقرير خطا الجوكر**\n\n"
-                        link = "[هنا](https://t.me/JepthonSupport)"
+                        link = "[هنا](https://t.me/G_lRR)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
@@ -256,7 +256,7 @@ class JokerClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**تقرير خطا الجوكر**\n\n"
-                        link = "[هنا](https://t.me/GroupJepthon)"
+                        link = "[هنا](https://t.me/G_lRR)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
