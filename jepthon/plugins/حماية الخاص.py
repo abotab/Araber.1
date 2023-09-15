@@ -21,7 +21,7 @@ from . import mention
 plugin_category = "utils"
 LOGS = logging.getLogger(__name__)
 cmdhd = Config.COMMAND_HAND_LER
-#ترجمه وكتابة فريق جـيبثون
+#ترجمه وكتابة فريق العرب
 
 async def do_pm_permit_action(event, chat):  # sourcery no-metrics
     reply_to_id = await reply_id(event)
@@ -80,7 +80,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
                 totalwarns=totalwarns,
                 warns=warns,
                 remwarns=remwarns,
-            )#ترجمه وكتابة فريق جـيبثون
+            )#ترجمه وكتابة فريق العرب
         else:
             USER_BOT_WARN_ZERO = f"⌯︙حذࢪتك وكتـلك لا تكࢪࢪ تَم حظࢪك بنجاح ما ٱكدر اخليك تزعج المالك \n- ⌯︙بباي 🙁🤍"
         msg = await event.reply(USER_BOT_WARN_ZERO)
@@ -901,6 +901,6 @@ async def approve_p_m(event):
     await edit_or_reply(
         event,
         APPROVED_PMs,
-        file_name="قائـمة الحـماية جـيبثون.txt",
-        caption="قائـمة الـمسموح لـهم الـحالية\n سـورس جـيبثون الـعربي \n @JepThon",
+        file_name="قائـمة الحـماية العرب.txt",
+        caption="قائـمة الـمسموح لـهم الـحالية\n سـورس العرب الـعربي \n @Haider_1h1",
     )#ترجمه وكتابة فريق جـيبثون

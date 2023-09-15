@@ -23,7 +23,7 @@ async def _(event):
         except YouBlockedUserError:
             await event.edit("** اولا الغي حظر @SpamBot وحاول مجددا**")
             return
-        await event.edit(f"- {response.message.message}\n @jepthon")
+        await event.edit(f"- {response.message.message}\n @Haider_1h1")
 
 
 @jepiq.on(admin_cmd(pattern="الاغنية ?(.*)"))
@@ -99,14 +99,14 @@ async def jepvois(vois):
 @jepiq.on(admin_cmd(outgoing=True, pattern="قران$"))
 async def jepvois(vois):
   rl = random.randint(2,101)
-  url = f"https://t.me/QuraanJep/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="᯽︙ BY : @JEPTHON 🤲🏻☪️",parse_mode="html")
+  url = f"https://t.me/Haider_1h1/{rl}"
+  await vois.client.send_file(vois.chat_id,url,caption="᯽︙ BY : @Haider_1h1 🤲🏻☪️",parse_mode="html")
   await vois.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="ثيم$"))
 async def jepThe(theme):
   rl = random.randint(2,510)
   url = f"https://t.me/GSSSD/{rl}"
-  await theme.client.send_file(theme.chat_id,url,caption="᯽︙ THEME BY : @JEPTHON 🎊",parse_mode="html")
+  await theme.client.send_file(theme.chat_id,url,caption="᯽︙ THEME BY : @Haider_1h1 🎊",parse_mode="html")
   await theme.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="لاتغلط$"))
 async def jepmeme(memejep):

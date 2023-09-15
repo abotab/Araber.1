@@ -1,11 +1,11 @@
-#edit  ~ @lMl10l for jepiq 
+#edit  ~ @VIPS80 for jepiq 
 
 from telethon import events
 from jepthon.utils import admin_cmd
 from jepthon import jepiq
 from . import *
  
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 plugin_category = "extra"
 @jepiq.ar_cmd(
@@ -15,15 +15,15 @@ plugin_category = "extra"
 async def tmgif(event):
     if event.fwd_from:
         return
-    lMl10l = await reply_id(event)
+    VIPS80 = await reply_id(event)
     if sad:
         jepiq = f"**˛ JEP ، ٰ𝖦𝗂𝖿 𝖲ِ𝖺ٰ𝖣 . .**\n"
         jepiq += f"✛━━━━━━━━━━━━━✛\n"
         jepiq += f"**الـمتحـرڪـة الأولـى **"
-        await event.client.send_file(event.chat_id, sad, caption=jepiq, reply_to=lMl10l)
+        await event.client.send_file(event.chat_id, sad, caption=jepiq, reply_to=VIPS80)
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س2$",
@@ -39,8 +39,8 @@ async def tmgif(event):
         RAZAN += f"**الـمتحـرڪـة الـثـانيـة **"
         await event.client.send_file(event.chat_id, sad2, caption=RAZAN, reply_to=leo)
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س3$",
@@ -56,8 +56,8 @@ async def tmgif(event):
         RAZAN += f"**الـمتحـرڪـة الـثـالثـة**\n"
         await event.client.send_file(event.chat_id, sad3, caption=RAZAN, reply_to=sic_id)
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س4$",
@@ -75,8 +75,8 @@ async def tmgif(event):
             event.chat_id, sad4, caption=RAZAN, reply_to=reply_to_id
         )
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س5$",
@@ -95,8 +95,8 @@ async def tmgif(event):
             event.chat_id, sad5, caption=RAZAN, reply_to=reply_to_id
         )
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س6$",
@@ -115,8 +115,8 @@ async def tmgif(event):
             event.chat_id, sad6, caption=RAZAN, reply_to=reply_to_id
         )
 
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
 
 @jepiq.ar_cmd(
     pattern="س7$",
@@ -166,5 +166,5 @@ async def tmgif(event):
         await event.client.send_file(
             event.chat_id, sad9, caption=RAZAN, reply_to=reply_to_id
         )
-#edit  ~ @lMl10l for jepiq 
-#جميع الحقوق محفوظة لسـورس الجوكر تخـمط تبيـن فشلـك
+#edit  ~ @VIPS80 for jepiq 
+#جميع الحقوق محفوظة لسـورس العربتخـمط تبيـن فشلـك
