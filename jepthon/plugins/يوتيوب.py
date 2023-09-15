@@ -1,6 +1,6 @@
-#@lMl10l   - @JepThon
-# Copyright (C) 2021 JepThon TEAM
-# FILES WRITTEN BY  @lMl10l
+#@@VIPS80   - @Haider_1h1
+# Copyright (C) 2021 Haider_1h1 TEAM
+# FILES WRITTEN BY  @@VIPS80
 import asyncio
 import io
 import os
@@ -9,14 +9,14 @@ import re
 import time
 from datetime import datetime
 
-from jepthon.utils import sudo_cmd
+from Haider_1h1.utils import sudo_cmd
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import types
 from telethon.utils import get_attributes
 from youtube_dl import YoutubeDL
 from urlextract import URLExtract
 from wget import download
-from jepthon import jepiq
+from Haider_1h1 import jepiq
 from youtube_dl.utils import (
     ContentTooShortError,
     DownloadError,
@@ -372,7 +372,7 @@ async def kakashi(event):
         end = datetime.now()
         ms = (end - start).seconds
         await cat.edit(
-            f"꙳ ¦ تم تنزيل بواسطة  : @JepThon ",
+            f"꙳ ¦ تم تنزيل بواسطة  : @Haider_1h1 ",
             parse_mode="html",
         )
     await event.client.delete_messages(
@@ -380,7 +380,7 @@ async def kakashi(event):
     )
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from jepthon import jepiq
+from Haider_1h1 import jepiq
 
 
 @jepiq.on(admin_cmd(pattern="تيك توك(?: |$)(.*)"))
@@ -400,7 +400,7 @@ async def _(event):
             msg = await conv.send_message(r_link)
             details = await conv.get_response()
             video = await conv.get_response()
-            """ قناة الجوكر  @Jepthon """
+            """ قناة العرب  @Haider_1h1 """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await event.edit("▾∮ الغـي حـظر هـذا البـوت و حـاول مجـددا @ttsavebot")
