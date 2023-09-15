@@ -8,8 +8,8 @@ from .core.session import jepiq
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.0.0"
-__license__ = "كـتابة وتـعديل فريـق جيبثون"
-__author__ = "جيبثون <https://T.ME/Jepthon>"
+__license__ = "كـتابة وتـعديل فريـق العرب"
+__author__ = "العرب <https://T.ME/G_lRR>"
 __copyright__ = "JEPTHON TEAM (C) 2020 - 2021  " + __author__
 
 jepiq.version = __version__

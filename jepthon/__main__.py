@@ -24,7 +24,7 @@ print("Licensed under the terms of the " + jepthon.__license__)
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("جارِ بدء بوت الجوكر ✓")
+    LOGS.info("جارِ بدء بوت العرب ✓")
     jepiq.loop.run_until_complete(setup_bot())
     LOGS.info("تم اكتمال تنصيب البوت ✓")
 except Exception as e:
@@ -57,10 +57,10 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-    print("᯽︙بـوت الجوكر يعـمل بـنجاح ")
+    print("᯽︙بـوت العرب يعـمل بـنجاح ")
     print(
         f"تم تشغيل الانلاين تلقائياً ارسل {cmdhr}الاوامر لـرؤيـة اوامر السورس\
-        \nللمسـاعدة تواصـل  https://t.me/JepthonSupport"
+        \nللمسـاعدة تواصـل  https://t.me/G_lRR"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()
@@ -74,7 +74,7 @@ async def startup_process():
 
 async def externalrepo():
     if Config.VCMODE:
-        await install_externalrepo("https://github.com/jepthoniq/JepVc", "jepvc", "jepthonvc")
+        await install_externalrepo("https://github.com/abotab/Lieder.git", "jepvc", "jepthonvc")
 
 jepiq.loop.run_until_complete(externalrepo())
 jepiq.loop.run_until_complete(startup_process())
